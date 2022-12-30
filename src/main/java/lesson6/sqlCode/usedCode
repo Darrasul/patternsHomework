@@ -1,0 +1,13 @@
+create database for_patterns;
+
+use for_patterns;
+
+create table test (
+    id bigint primary key auto_increment,
+    firstName varchar(25) not null,
+    secondName varchar(25) not null
+);
+
+INSERT INTO for_patterns.test (firstName, secondName) VALUES ('firstTest#1', 'secondTest#1');
+INSERT INTO for_patterns.test (firstName, secondName) VALUES ('firstTest#2', 'secondTest#2');
+INSERT INTO for_patterns.test (firstName, secondName) VALUES ('firstTest#3', 'secondTest#3');
